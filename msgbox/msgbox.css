@@ -40,7 +40,8 @@
   text-align: center;
 }
 
-#message-box.center #message-box-contents pre {
+#message-box.center #message-box-contents pre,
+#message-box.center.content-left #message-box-contents {
   text-align: left;
 }
 
@@ -51,6 +52,10 @@
 
 #message-box.pre #message-box-contents {
   white-space: pre-line;
+}
+
+#message-box-contents h2 {
+  margin-top: 0;
 }
 
 #message-box-title {
