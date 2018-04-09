@@ -12,7 +12,7 @@
 		"description": "Default CodeMirror CSS theme option on the edit style page"
 	},
 	"styleRegexpTestTitle": {
-		"message": "Lista de pestañas coincidentes abiertas (pulse en el URL para poner el foco en esa pestaña)",
+		"message": "Lista de pestañas abiertas que coinciden (haga clic en la URL para enfocar su pestaña)",
 		"description": "RegExp test report: title of the report"
 	},
 	"bckpInstStyles": {
@@ -24,11 +24,11 @@
 		"description": "Label for the sort info popup on the Manage styles page"
 	},
 	"manageOnlyUsercss": {
-		"message": "Sólo estilos Usercss",
+		"message": "Solo estilos Usercss",
 		"description": "Checkbox to show only Usercss styles"
 	},
 	"sortStylesHelp": {
-		"message": "Escoja el tipo de orden a aplicar a las entradas instaladas desde el menú desplegable de ordenación. La configuración predeterminada aplica un orden ascendente (A a Z) a los títulos de las entradas. Las ordenaciones del grupo \"Título descendentemente\" aplicarán un orden descendente (Z a A) al título.\nHay otros preajustes que permitirán ordenar las entradas según múltiples criterios. Piense en esto como en ordenar una tabla con múltiples columnas, y en cada categoría en una selección (entre los signos más) representa una columna o grupo.\nPor ejemplo, si la configuración es \"Habilitados (primero) + Título\", las entradas se ordenarían de forma que las entradas habilitadas quedarían en la parte superior de la lista, luego se aplica un orden ascendente (A a Z) de títulos de las entradas tanto para las entradas habilitadas como las deshabilitadas de forma separada.",
+		"message": "Seleccione el tipo de ordenación que se aplicará a las entradas instaladas desde el menú desplegable de ordenación. La configuración predeterminada aplica un orden ascendente (A a Z) a los títulos de las entradas. Las ordenaciones del grupo \"Título descendentemente\" aplicarán un orden descendente (Z a A) al título.\nExisten otros valores predeterminados que permiten ordenar las entradas según varios criterios. Piense en esto como si se ordenara una tabla con múltiples columnas y en la que cada categoría en una selección (entre los signos más) representa una columna o grupo.\nPor ejemplo, si la configuración es \"Activado (primero) + Título\", las entradas se ordenarán de forma que todas las entradas activadas se encuentren en la parte superior de la lista; a continuación, se aplicará un orden ascendente por título de entrada (A a Z) tanto a las entradas activadas como a las desactivadas por separado",
 		"description": "Text in the minihelp displayed when clicking (i) icon to the right of the sort input field on the Manage styles page"
 	},
 	"sortLabelTitleAsc": {
@@ -72,7 +72,7 @@
 		"description": ""
 	},
 	"cm_tabSize": {
-		"message": "Tamaño de la pestaña",
+		"message": "Tamaño del tabulador",
 		"description": "Label for the text box controlling tab size option for the style editor."
 	},
 	"enableStyleLabel": {
@@ -144,7 +144,7 @@
 		"description": "Drag'n'drop message"
 	},
 	"styleRegexpTestNote": {
-		"message": "Nota: Use una única \\ como caracter de escape en el campo de entrada de la expresión regular (regexp), que se convertirá automátiascamente a \\\\ en el código del estilo igual que por especificación para cadenas entrecomilladas en CSS.",
+		"message": "Nota: Use un único \\ como carácter de escape en el campo de entrada de la expresión regular (regexp), que se convertirá automáticamente a \\\\ en el código del estilo según la especificación para las cadenas entrecomilladas en CSS.",
 		"description": "RegExp test report: a note displayed at the bottom of the dialog"
 	},
 	"helpAlt": {
@@ -188,7 +188,7 @@
 		"description": "Heading for the manage page"
 	},
 	"styleBeautify": {
-		"message": "Embellecer",
+		"message": "Formatear",
 		"description": "Label for the CSS-beautifier button on the edit style page"
 	},
 	"styleRegexpProblemTooltip": {
@@ -293,7 +293,7 @@
 		"description": ""
 	},
 	"manageOnlyLocal": {
-		"message": "Sólo estilos creados localmente",
+		"message": "Solo estilos creados localmente",
 		"description": "Checkbox to show only locally created styles i.e. non-updatable"
 	},
 	"styleMetaErrorPreprocessor": {
@@ -335,11 +335,11 @@
 		"description": "Label for the button to apply all detected updates"
 	},
 	"manageOnlyNonUsercss": {
-		"message": "Sólo estilos no-Usercss",
+		"message": "Solo estilos no-Usercss",
 		"description": "Checkbox to show only non-Usercss (standard) styles"
 	},
 	"liveReloadLabel": {
-		"message": "Recargar en caliente",
+		"message": "Recarga en tiempo real",
 		"description": "The label of live-reload feature"
 	},
 	"linkGetStyles": {
@@ -514,7 +514,7 @@
 		"description": "Additional text displayed when an update check skipped updating the style to avoid losing local modifications"
 	},
 	"toggleStyle": {
-		"message": "Conmutar estilo",
+		"message": "Activar/Desactivar estilo",
 		"description": "Label for the checkbox to enable/disable a style"
 	},
 	"searchNumberOfResults": {
@@ -578,7 +578,7 @@
 		"description": "Label before the replace input field in the editor shown on Ctrl-H"
 	},
 	"styleRegexpTestNone": {
-		"message": "No hay pestañas coincidentes",
+		"message": "No hay pestañas que coincidan",
 		"description": "RegExp test report: label for expressions that didn't match any tabs"
 	},
 	"importReportLegendUpdatedMeta": {
@@ -671,7 +671,7 @@
 		"description": ""
 	},
 	"linterCSSLintSettings": {
-		"message": "(Establezca la regla como: 0 = deshabilitada; 1 = advertencia; 2 = error)",
+		"message": "(Establecer regla como: 0 = deshabilitada; 1 = advertencia; 2 = error)",
 		"description": "CSSLint rule config values"
 	},
 	"usercssReplaceTemplateSectionBody": {
@@ -723,7 +723,7 @@
 		"description": "Text that displays when an update completed"
 	},
 	"previewLabel": {
-		"message": "Previsualización en caliente",
+		"message": "Vista previa en tiempo real",
 		"description": "Label for the checkbox in style editor to enable live preview while editing."
 	},
 	"paginationTotal": {
@@ -814,7 +814,7 @@
 		"description": ""
 	},
 	"linterConfigPopupTitle": {
-		"message": "Establezcer configuración de $linter$ reglas",
+		"message": "Establecer configuración para las reglas $linter$",
 		"description": "Stylelint or CSSLint popup header",
 		"placeholders": {
 			"linter": {
@@ -835,7 +835,7 @@
 		"description": "Label for the checkbox controlling smart indentation option for the style editor."
 	},
 	"styleRegexpTestButton": {
-		"message": "Prueba de regexp",
+		"message": "Probar regexp",
 		"description": "RegExp test button label in the editor shown when applies-to list has a regexp value"
 	},
 	"appliesHelp": {
@@ -847,7 +847,7 @@
 		"description": "Homepage link text on the manage page e.g. https://add0n.com/stylus.html#features with chat/FAQ/intro/info"
 	},
 	"searchStylesHelp": {
-		"message": "La tecla </> pone el foco en el campo de búsqueda.\nTexto simple: Busque por nombre, código, URL de la página principal, y sitios a los que se apllica. Las palabras con menos de 3 letras son ignoradas.\nURL coincidente: Prefije la búsqueda con <url:>, ej. <url:https://github.com/openstyles/stylus>\nExpresiones regulares: Incluya barras e indicadores, ej.. </body.*?\\ba\\b/simguy>\nPalabras exactas: Ponga la consulta entre comillas dobles, ej.. <\".header ~ div\">",
+		"message": "La tecla </> pone el foco en el campo de búsqueda.\nTexto simple: Busque por nombre, código, URL de la página principal, y sitios a los que se apllica. Las palabras con menos de 3 letras son ignoradas.\nURL coincidente: anteponga a la búsqueda <url:>, ejemplo: <url:https://github.com/openstyles/stylus>\nExpresiones regulares: Incluya barras e indicadores, ejemplo: </body.*?\\ba\\b/simguy>\nPalabras exactas: Ponga la consulta entre comillas dobles, ejemplo: <\".header ~ div\">",
 		"description": "Text in the minihelp displayed when clicking (i) icon to the right of the search input field on the Manage styles page"
 	},
 	"findStyles": {
@@ -901,7 +901,7 @@
 		"description": "Used in various places to select/perform the previous step/action"
 	},
 	"manageOnlyDisabled": {
-		"message": "Sólo estilos deshabilitados",
+		"message": "Solo estilos deshabilitados",
 		"description": "Checkbox to show only disabled styles"
 	},
 	"stylusUnavailableForURLdetails": {
@@ -909,7 +909,7 @@
 		"description": "Sub-note in the toolbar pop-up when on a URL Stylus can't affect"
 	},
 	"cm_matchHighlightSelection": {
-		"message": "Sólo selección",
+		"message": "Solo selección",
 		"description": "Style editor's 'highglight' drop-down list option: highlight the occurrences of currently selected text"
 	},
 	"updateAllCheckSucceededSomeEdited": {
@@ -925,7 +925,7 @@
 		"description": ""
 	},
 	"manageOnlyUpdates": {
-		"message": "Sólo con actualizaciones o problemas",
+		"message": "Solo con actualizaciones o problemas",
 		"description": "Checkbox to show only styles that have updates after check-all-styles-for-updates was performed"
 	},
 	"addStyleTitle": {
@@ -997,7 +997,7 @@
 		"description": "Option text for the user to sort the style by last update date"
 	},
 	"manageOnlyExternal": {
-		"message": "Sólo estilos externos",
+		"message": "Solo estilos externos",
 		"description": "Checkbox to show only externally installed styles i.e. updatable"
 	},
 	"searchResultWeeklyCount": {
@@ -1037,7 +1037,7 @@
 		"description": "Tooltip for the checkbox to show only locally created styles i.e. non-updatable"
 	},
 	"checkAllUpdates": {
-		"message": "Buscar actualizaciones para todos los estilos",
+		"message": "Actualizar todos los estilos",
 		"description": "Label for the button to check all styles for updates"
 	},
 	"openOptionsManage": {
@@ -1139,7 +1139,7 @@
 		"description": "Label for the checkbox that toggles the new UI on manage page"
 	},
 	"unreachableAMOHintOldFF": {
-		"message": "Sólo Firefox 59 y posteriores se pueden configurar para permitir que WebExtensions añada elementos de estilo en sitios protegidos-por-CSP (política de seguridad de contenidos) como este.",
+		"message": "Solo Firefox 59 y posteriores se pueden configurar para permitir que WebExtensions añada elementos de estilo en sitios protegidos-por-CSP (política de seguridad de contenidos) como este.",
 		"description": "Note in the popup when opened on addons.mozilla.org in Firefox < 59"
 	},
 	"importReportUndoneTitle": {
@@ -1151,7 +1151,7 @@
 		"description": "Used in various lists/options to indicate that something is disabled"
 	},
 	"cm_indentWithTabs": {
-		"message": "Usar pestañas con sangría inteligente",
+		"message": "Usar tabulación con sangría inteligente",
 		"description": "Label for the checkbox controlling tabs with smart indentation option for the style editor."
 	},
 	"replaceWith": {
@@ -1188,7 +1188,7 @@
 		"description": "Placeholder text for the empty name input field when creating a new Usercss style"
 	},
 	"addStyleLabel": {
-		"message": "Escribir un estilo nuevo",
+		"message": "Crear un estilo",
 		"description": "Label for the button to go to the add style page"
 	},
 	"installButtonUpdate": {
@@ -1200,7 +1200,7 @@
 		"description": "Heading for backup"
 	},
 	"manageOnlyEnabled": {
-		"message": "Sólo estilos activos",
+		"message": "Solo estilos activos",
 		"description": "Checkbox to show only enabled styles"
 	},
 	"editStyleLabel": {
